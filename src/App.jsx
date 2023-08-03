@@ -1,12 +1,9 @@
-
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hellow World</h1>
-    </>
-  )
-}
+    <div>
+      <h1 className="text-4xl font-bold"> Hello World </h1>
+    </div>
+  );
+};
 
-export default App
+export default App;
