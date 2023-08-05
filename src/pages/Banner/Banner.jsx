@@ -1,7 +1,9 @@
+import StaticCarousel from "./Slider";
+
 const Banner = () => {
   return (
     <div>
-      <h3>Banner</h3>
+      <StaticCarousel />
     </div>
   );
 };
