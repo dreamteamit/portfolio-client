@@ -9,11 +9,9 @@ export default function StaticCarousel() {
   return (
     <>
 
-    <Carousel className='h-96'>
-      <div>
-        <div>
-            afdasdsda
-        </div>
+    <Carousel className='h-96 mt-5'>
+      <div className='hu'>
+       
       <img
         alt="..."
         src={slide1}
