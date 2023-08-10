@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url(../../../public/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../../../public/Roboto-Medium.ttf);
+}
+.our-service-h1{
+    font-family: 'Barlow Condensed';
+}
+.service-header{
+    font-family: 'roboto';
+}
+.content-description{
+    font-family: 'roboto';
+}
