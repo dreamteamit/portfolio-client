@@ -1,4 +1,3 @@
-import CustomButton from "../../components/CustomButton";
 import StaticCarousel from "./Slider";
 const Banner = () => {
   return (
