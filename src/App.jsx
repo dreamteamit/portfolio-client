@@ -1,4 +1,5 @@
 
+import About from "./pages/About/About";
 import Banner from "./pages/Banner/Banner";
 import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
@@ -34,7 +35,7 @@ const App = () => {
       <section id="portfolio">
         <Projects />
       </section>
-      <FAQs />
+     
 
       <section id="testimonial">
       <Feedbacks />

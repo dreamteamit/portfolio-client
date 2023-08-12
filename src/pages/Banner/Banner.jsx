@@ -1,4 +1,3 @@
-import CustomButton from "../../components/CustomButton";
 import StaticCarousel from "./Slider";
 import { Link, animateScroll as scroll } from "react-scroll";
 const Banner = () => {

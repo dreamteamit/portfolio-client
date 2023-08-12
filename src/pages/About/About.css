@@ -1,0 +1,28 @@
+.aboutMain{
+    display: flex;
+    gap: 4rem;
+    padding-left: 3.5rem;
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
+ 
+.aboutImage{
+    width: 100%;
+}
+
+.aboutImage > img{
+    border-radius: 0.5rem;
+}
+
+.aboutOne{
+    width: 100%;
+}
+
+#buttoncol{
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: linear-gradient(90deg, #0045FF 0%, #BD29F2 100%);
+}
+
