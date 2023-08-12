@@ -18,7 +18,7 @@ const About = () => {
                     <p><span className='text-blue-500'>&bull; </span>Our mission is to provide quality product design.</p>
                 </div>
                 <div className='mt-16'>
-                    <Button id="buttoncol">Get Started Now</Button>
+                    <Button id="buttoncol"><span className='text-xl'>Get Started Now</span></Button>
                 </div>
             </div>
         </div>
