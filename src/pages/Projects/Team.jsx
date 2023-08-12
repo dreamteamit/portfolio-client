@@ -9,7 +9,10 @@ const Team = () => {
   useEffect(() => {
     fetch("Team.json")
       .then((res) => res.json())
-      .then((data) => setMenu(data));
+      .then((data) => {
+        setItems(data);
+        setMenu(data);
+      });
   }, []);
 
   const filterItem = (categItem) => {
@@ -67,7 +70,7 @@ const Team = () => {
 
       <div className="container-fluid mt-4">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10">
-          {items.map((elem) => {
+          {items?.map((elem) => {
             const { id, name, image, category } = elem;
 
             return (

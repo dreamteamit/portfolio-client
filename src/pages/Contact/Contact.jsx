@@ -1,8 +1,11 @@
 import { HiOutlinePaperAirplane } from 'react-icons/hi';
 import { Zoom } from 'react-reveal';
 import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 
 const Contact = () => {
+
+  const [err, setErr] = useState(0)
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -15,21 +18,23 @@ const Contact = () => {
       email,
       message
     }
-    for (const property in info) {
-      if (info.hasOwnProperty(property)) {
-        formData.append(property, info[property]);
+    if (info.name != '' || info.email != '' || info.message != '') {
+      for (const property in info) {
+        if (info.hasOwnProperty(property)) {
+          formData.append(property, info[property]);
+        }
       }
-    }
 
-    if (formData !== null) {
-      emailjs.sendForm('service_g66z9h5', 'template_w4dlvjt', formData, "WdRjephW6B8q1428b")
-        .then((result) => {
-          console.log(result.text);
-          e.target.reset();
-        }, (error) => {
-          console.log(error.text);
-        });
-    }
+      if (formData !== null) {
+        emailjs.sendForm('service_g66z9h5', 'template_w4dlvjt', formData, "WdRjephW6B8q1428b")
+          .then((result) => {
+            console.log(result.text);
+            e.target.reset();
+          }, (error) => {
+            console.log(error.text);
+          });
+      }
+    } else setErr(1);
   }
 
 
@@ -62,8 +67,12 @@ const Contact = () => {
             <textarea id="message" rows="3" name='message' className="w-full p-3 rounded bg-gray-100 text-black font-semibold border-2 border-sky-500" placeholder='Your Message'></textarea>
           </div>
           <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded border border-sky-500 hover:bg-sky-500 text-sky-500 hover:text-white hover:scale-110 duration-500">Send Message</button>
+          {
+            err == 1 && <p className='text-sky-600 font-bold'>Please add your name email and message</p>
+          }
         </form>
       </div>
+
     </div>
   );
 };
