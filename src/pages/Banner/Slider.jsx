@@ -8,11 +8,11 @@ export default function StaticCarousel() {
   return (
     <>
 
-    <Carousel className='md:h-[800px]'>
+    <Carousel className='md:h-[800px] -mt-1 z-0 '>
       {/* slider-1 */}
       <div className='slider-1 flex flex-col justify-center items-center text-white'>
         <div>
-          <CustomHeading>We Make Smile</CustomHeading>
+          <CustomHeading subheading={'We Make Smile'}></CustomHeading>
         </div>
         <div className='text-center md:text-3xl lg:text-5xl text-xl font-bold'>
           <h1>For our upcomming business <br/> partners and client</h1>
@@ -33,7 +33,7 @@ export default function StaticCarousel() {
       
       <div className='slider-2 flex flex-col justify-center items-center text-white'>
         <div>
-          <CustomHeading>We Make Smile</CustomHeading>
+          <CustomHeading subheading={'We Make Smile'}></CustomHeading>
         </div>
         <div className='text-center md:text-3xl lg:text-5xl text-xl font-bold'>
           <h1>For our upcomming business <br/> partners and client</h1>
@@ -53,7 +53,7 @@ export default function StaticCarousel() {
      {/* slider-3 */}
      <div className='slider-1 flex flex-col justify-center items-center text-white'>
         <div>
-          <CustomHeading>We Make Smile</CustomHeading>
+          <CustomHeading subheading={'We Make Smile'}></CustomHeading>
         </div>
         <div className='text-center md:text-3xl lg:text-5xl text-xl font-bold'>
           <h1>For our upcomming business <br/> partners and client</h1>

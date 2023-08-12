@@ -1,30 +1,143 @@
 import StaticCarousel from "./Slider";
+import { Link, animateScroll as scroll } from "react-scroll";
 const Banner = () => {
   return (
     <div>
       <div className="relative">
         {/* menu */}
-        <div className="bg-transparent absolute top-10 z-50 text-white w-full">
-          <div className="md:flex md:justify-around md:items-center">
-          
-              {/* logo */}
-              <div>
-                <h1>Dream IT</h1>
-              </div>
-              {/* main menu */}
-              <div className="md:flex gap-10 lg:text-2xl md:text-xl">
-                <a href="#home">Home</a>
-                <a href="#service">Service</a>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#testimonial">Testimonial</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact">Contact Us</a>
-              </div>
-    
+        <nav className="bg-transparent absolute top-10 z-50 text-white w-full">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+            <a href="https://flowbite.com/" className="flex items-center">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                Dream IT
+              </span>
+            </a>
+            <button
+              data-collapse-toggle="navbar-default"
+              type="button"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+            >
+              <span className="sr-only">Open main menu</span>
+              <svg
+                className="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+            <div
+              className="hidden w-full md:block md:w-auto"
+              id="navbar-default"
+            >
+              <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  ">
+                <li>
+                  <Link
+                    to="home"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="service"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer"
+                  >
+                    Service
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="about"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="portfolio"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer"
+                  >
+                    Portfolio
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="portfolio"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer"
+                  >
+                    Testimonial
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="blog"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer"
+                  >
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="contact"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer"
+                  >
+                    Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
+
           <hr className="border border-gray-500 w-full mt-10" />
-        </div>
+        </nav>
         <StaticCarousel />
       </div>
     </div>

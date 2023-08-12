@@ -2,7 +2,8 @@ import './Navbar.css';
 import { FaMailBulk, FaPhone, FaLocationArrow, FaFacebook, FaTwitter, FaGooglePlusG, FaLinkedin, FaPinterest } from "react-icons/fa";
 const NavBar = () => {
   return (
-    <div className="grid grid-cols-2  items-center menu-header px-10">
+   <div className='z-40'>
+     <div className="grid grid-cols-2  items-center menu-header px-10">
       <div className="flex justify-around py-5">
         <div className="flex items-center gap-5 ">
           <p>
@@ -33,6 +34,7 @@ const NavBar = () => {
 
       </div>
     </div>
+   </div>
   );
 };
 

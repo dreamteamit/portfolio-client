@@ -12,20 +12,41 @@ import Services from "./pages/Services/Services";
 import Teams from "./pages/Teams/Teams";
 import WhoWeAre from "./pages/whoWeAre/WhoWeAre";
 
+
+
 const App = () => {
   return (
     <div>
-      <NavBar />
-      <Banner />
-      <Services />
-      <About/>
-      <WhoWeAre />
-      <Teams />
-      <Projects />
-      <FAQs />
+
+      <section id="home">
+        <NavBar />
+      </section>
+      <section><Banner /></section>
+      <section id="service">
+         <Services />
+         <WhoWeAre />
+         </section>
+
+
+      <section id="about">
+        <Teams />
+      </section>
+
+      <section id="portfolio">
+        <Projects />
+      </section>
+     
+
+      <section id="testimonial">
       <Feedbacks />
-      <Blogs />
-      <Contact />
+      </section>
+ <section id="blog">
+ <Blogs />
+ </section>
+ 
+   <section className="contact">
+   <Contact />
+   </section>
       <Footer />
     </div>
   );
