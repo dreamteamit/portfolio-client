@@ -14,18 +14,12 @@ const Services = () => {
   },[])
   return (
     <div className="mt-20 flex flex-col justify-center items-center">
-      <div className="service-header md:text-2xl text-xl text-blue-600">
-        <CustomHeading>SERVICES</CustomHeading>
-      </div>
+     
+        <CustomHeading subheading={'services'} heading={'Our Services'} content={'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader.'}></CustomHeading>
+     
       {/* our services header */}
-      <div className="our-service-h1 mt-5 md:text-7xl text-2xl">
-        <h1>Our Services</h1>
-      </div>
+     
       {/* content description */}
-
-      <div className="content-description w-1/3 text-center mt-5">
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader.</p>
-      </div>
 
       {/* services */}
 

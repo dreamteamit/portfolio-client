@@ -1,5 +1,6 @@
 import CustomButton from "../../components/CustomButton";
 import StaticCarousel from "./Slider";
+import { Link, animateScroll as scroll } from "react-scroll";
 const Banner = () => {
   return (
     <div>
@@ -7,22 +8,71 @@ const Banner = () => {
         {/* menu */}
         <div className="bg-transparent absolute top-10 z-50 text-white w-full">
           <div className="md:flex md:justify-around md:items-center">
-          
-              {/* logo */}
-              <div>
-                <h1>Dream IT</h1>
-              </div>
-              {/* main menu */}
-              <div className="md:flex gap-10 lg:text-2xl md:text-xl">
-                <a href="#home">Home</a>
-                <a href="#service">Service</a>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#testimonial">Testimonial</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact">Contact Us</a>
-              </div>
-    
+
+            {/* logo */}
+            <div>
+              <h1>Dream IT</h1>
+            </div>
+            {/* main menu */}
+            <div className="md:flex gap-10 text-xl">
+              <Link to="home" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="cursor-pointer">Home</Link>
+
+              <Link to="service" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="cursor-pointer">Service</Link>
+
+
+              <Link to="about" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="cursor-pointer">About</Link>
+
+
+
+
+              <Link to="portfolio" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="cursor-pointer">Portfolio</Link>
+
+
+              <Link to="portfolio" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="cursor-pointer">Testimonial</Link>
+
+              <Link to="blog" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="cursor-pointer">Blog</Link>
+
+              <Link to="contact" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="cursor-pointer">Contact Us</Link>
+
+
+
+            </div>
+
           </div>
           <hr className="border border-gray-500 w-full mt-10" />
         </div>

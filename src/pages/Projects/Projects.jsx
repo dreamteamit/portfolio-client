@@ -1,8 +1,15 @@
+
+import CustomHeading from "../../components/CustomHeading";
+import Team from "./Team";
+
 const Projects = () => {
   return (
-    <div>
-      <h3>Here is our All Projects</h3>
-    </div>
+    <>
+      <div className="my-10 flex flex-col justify-center items-center">
+        <CustomHeading subheading={'PROJECTS'} heading={'Our Portfolio'} content={'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader.'}></CustomHeading>
+        <Team/>
+      </div>
+    </>
   );
 };
 
