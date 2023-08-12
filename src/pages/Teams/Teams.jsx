@@ -49,21 +49,21 @@ const Teams = () => {
 
         <Slider {...settings}>
           <div className="mx-4 p-2">
-            <img src="https://i.ibb.co/YLp1DX1/p.jpg" alt="" className=' rounded-xl  bg-white p-4' />
+            <img src="https://i.ibb.co/ypx5mVG/365397404-2092992247709495-6443373606371390735-n.jpg" alt="" className=' rounded-xl  bg-white p-4 w-full' />
+            <h3 className="text-center text-2xl font-bold text-sky-600 mt-2">CEO OF Team IT</h3>
+            <div className="flex justify-evenly items-center mt-2">
+              <a className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='mailto:smrabiulislam03@gmail.com'><FaEnvelope /></a>
+              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://www.facebook.com/smrabiulislam1998' target='_blank'><FaFacebookF /></a>
+              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://www.linkedin.com/in/sm-rabiul-islam/' target='_blank'><FaLinkedinIn /></a>
+            </div>
+          </div>
+          <div className="mx-4 p-2">
+            <img src="https://i.ibb.co/YLp1DX1/p.jpg" alt="" className=' rounded-xl bg-white p-4 w-full' />
             <h3 className="text-center text-2xl font-bold text-sky-600 mt-2">Full Stack Developer</h3>
             <div className="flex justify-evenly items-center mt-2">
               <a className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='mailto:nazmulbhuyian000@gmail.com'><FaEnvelope /></a>
               <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://web.facebook.com/nazmul.nobel.3' target='_blank'><FaFacebookF /></a>
               <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://www.linkedin.com/in/nazmul-bhuyian-mern-stack-developer/' target='_blank'><FaLinkedinIn /></a>
-            </div>
-          </div>
-          <div className="mx-4 p-2">
-            <img src="https://i.ibb.co/YLp1DX1/p.jpg" alt="" className=' rounded-xl  bg-white p-4' />
-            <h3 className="text-center text-2xl font-bold text-sky-600 mt-2">Full Stack Developer</h3>
-            <div className="flex justify-evenly items-center mt-2">
-              <a className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='mailto:email-Name'><FaEnvelope /></a>
-              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='Facebook URl' target='_blank'><FaFacebookF /></a>
-              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='Linkedin Url' target='_blank'><FaLinkedinIn /></a>
             </div>
           </div>
           <div className="mx-4 p-2">
