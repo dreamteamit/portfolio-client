@@ -1,7 +1,6 @@
 
 import About from "./pages/About/About";
 import Banner from "./pages/Banner/Banner";
-import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
 import FAQs from "./pages/FAQs/FAQs";
 import Feedbacks from "./pages/Feedbacks/Feedbacks";
@@ -40,9 +39,6 @@ const App = () => {
       <section id="testimonial">
       <Feedbacks />
       </section>
- <section id="blog">
- <Blogs />
- </section>
  
    <section className="contact">
    <Contact />

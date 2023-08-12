@@ -108,19 +108,6 @@ const Banner = () => {
                 </li>
                 <li>
                   <Link
-                    to="blog"
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="cursor-pointer"
-                  >
-                    Blog
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     to="contact"
                     activeClass="active"
                     spy={true}
