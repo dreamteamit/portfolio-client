@@ -3,8 +3,9 @@ import HowWeWork from "../howWeWork/HowWeWork";
 
 const WhoWeAre = () => {
   return (
-    <div className="m-6 mr-8 ml-14">
-      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full">
+    <div className="lg:mx-36 mt-12">
+      <h1 className="text-center text-6xl font-bold mt-6 text-sky-600 underline mb-10">About Our Company</h1>
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full">
         <img
           className="rounded-lg"
           src="https://images.ctfassets.net/hrltx12pl8hq/4ACnMj4WVSOZRZt0jHu9h5/1506f652bcd70f4dc3e88219fefea858/shutterstock_739595833-min.jpg?fit=fill&w=600&h=400"
