@@ -1,7 +1,6 @@
 
 import About from "./pages/About/About";
 import Banner from "./pages/Banner/Banner";
-import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
 import FAQs from "./pages/FAQs/FAQs";
 import Feedbacks from "./pages/Feedbacks/Feedbacks";
@@ -12,20 +11,42 @@ import Services from "./pages/Services/Services";
 import Teams from "./pages/Teams/Teams";
 import WhoWeAre from "./pages/whoWeAre/WhoWeAre";
 
+
+
 const App = () => {
   return (
     <div>
-      <NavBar />
-      <Banner />
-      <Services />
-      <About/>
-      <WhoWeAre />
-      <Teams />
-      <Projects />
-      <FAQs />
+
+      <section id="home">
+        <NavBar />
+      </section>
+      <section><Banner /></section>
+      <section id="service">
+         <Services />
+         <WhoWeAre />
+         </section>
+
+
+      <section id="about">
+        <Teams />
+      </section>
+
+      <section id="portfolio">
+        <Projects />
+      </section>
+     
+
+      <section id="testimonial">
       <Feedbacks />
-      <Blogs />
-      <Contact />
+      </section>
+
+      <section id="testimonial">
+      <FAQs />
+      </section>
+ 
+   <section className="contact">
+   <Contact />
+   </section>
       <Footer />
     </div>
   );

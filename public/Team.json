@@ -1,0 +1,39 @@
+[
+    {
+      "id": "2",
+      "image": "./portfolio/design1.jpg",
+      "name": "Modern Web Design For Local Agency & Copany",
+      "category": "design"
+    },
+    {
+        "id": "2",
+        "image": "./portfolio/design2.jpg",
+        "name": "App Design For Local Agency And Company",
+        "category": "design"
+      },
+      {
+        "id": "3",
+        "image": "./portfolio/branding1.jpg",
+        "name": "Branding For American IT Business Agency",
+        "category": "branding"
+      },
+      {
+        "id": "4",
+        "image": "./portfolio/marketing1.jpg",
+        "name": "World Best Available Scope For Your Marketing.",
+        "category": "marketing"
+      },
+      {
+        "id": "5",
+        "image": "./portfolio/branding2.jpg",
+        "name": "What Is The Exact Solution For Your IT Business?",
+        "category": "branding"
+      },
+      {
+        "id": "6",
+        "image": "./portfolio/branding3.jpg",
+        "name": "What The New In Upcoming Design Think?",
+        "category": "branding"
+      }
+   
+  ]  
