@@ -28,21 +28,21 @@ const navigation = [
 const Footer = () => {
   return (
     <footer
-      className="hidden md:block bg-white pb-16  lg:pb-0"
+      className="pb-16 lg:pb-0"
       aria-labelledby="footer-heading"
     >
-      <div className="px-6 lg:px-8 pt-5 bg-white lg:pt-10">
+      <div className="px-6 lg:px-8 pt-5 lg:pt-10 bg-[#16208C] text-white">
         <div className="hidden md:block  border-t border-b border-gray-300"></div>
         <div className="w-full">
           <div className="lg:px-6 md:grid md:grid-cols-3 lg:grid-cols-4 space-y-10 md:space-y-0 md:gap-8 mt-10">
             <div className="space-y-3">
-              <p className="text-sm lg:text-base leading-6 text-gray-800">
+              <p className="text-sm lg:text-base leading-6 text-white">
                 Bogura,Bangladesh
               </p>
-              <p className="text-sm lg:text-base leading-6 text-gray-800">
+              <p className="text-sm lg:text-base leading-6 text-white">
                 Phone: +8801-xxx xxx xxx{" "}
               </p>
-              <p className="text-sm lg:text-base leading-6 text-gray-800">
+              <p className="text-sm lg:text-base leading-6 text-white">
                 E-mail: email.address@gmail.com
               </p>
               <div className="flex  pt-2">
@@ -161,7 +161,7 @@ const Footer = () => {
             </div>
             {navigation.map((data, i) => (
               <div key={i} className="space-y-4">
-                <h3 className="text-base lg:text-lg uppercase font-semibold text-gray-900">
+                <h3 className="text-base lg:text-lg uppercase font-semibold text-white">
                   {data?.section}
                 </h3>
                 <ul role="list" className="space-y-3">
@@ -169,7 +169,7 @@ const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 capitalize text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 capitalize text-white hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -181,8 +181,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-900/10 py-6 sm:mt-10 mt-6 lg:mt-10 lg:px-6">
-          <p className="text-base leading-5 text-gray-500">
-            © 2023 <span className="text-gray-800">OZ BABY MIlk</span>. All
+          <p className="text-base leading-5 text-white text-center">
+            © 2023 OZ BABY MIlk. All
             rights reserved.
           </p>
         </div>
