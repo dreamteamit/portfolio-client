@@ -67,21 +67,21 @@ const Teams = () => {
             </div>
           </div>
           <div className="mx-4 p-2">
-            <img src="https://i.ibb.co/YLp1DX1/p.jpg" alt="" className=' rounded-xl  bg-white p-4' />
-            <h3 className="text-center text-2xl font-bold text-sky-600 mt-2">Full Stack Developer</h3>
+            <img src="https://i.ibb.co/mt3XrD0/365777149-842195200429925-5215951036734200385-n.png" alt="" className=' rounded-xl  bg-white p-4' />
+            <h3 className="text-center text-2xl font-bold text-sky-600 mt-2">Front End Developer</h3>
             <div className="flex justify-evenly items-center mt-2">
-              <a className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='mailto:email-Name'><FaEnvelope /></a>
-              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='Facebook URl' target='_blank'><FaFacebookF /></a>
-              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='Linkedin Url' target='_blank'><FaLinkedinIn /></a>
+              <a className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='mailto:rishad.islam158@gmail.com'><FaEnvelope /></a>
+              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://www.facebook.com/rishadislam01/' target='_blank'><FaFacebookF /></a>
+              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://www.linkedin.com/in/rishad-islam/' target='_blank'><FaLinkedinIn /></a>
             </div>
           </div>
           <div className="mx-4 p-2">
-            <img src="https://i.ibb.co/YLp1DX1/p.jpg" alt="" className=' rounded-xl  bg-white p-4' />
-            <h3 className="text-center text-2xl font-bold text-sky-600 mt-2">Full Stack Developer</h3>
+            <img src="https://i.ibb.co/tLnNDJ3/Shejan-Img1-2.jpg" alt="" className=' rounded-xl  bg-white p-4' />
+            <h3 className="text-center text-2xl font-bold text-sky-600 mt-2">Front End Developer</h3>
             <div className="flex justify-evenly items-center mt-2">
-              <a className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='mailto:email-Name'><FaEnvelope /></a>
-              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='Facebook URl' target='_blank'><FaFacebookF /></a>
-              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='Linkedin Url' target='_blank'><FaLinkedinIn /></a>
+              <a className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='mailto:nizam.shejan11@gmail.com'><FaEnvelope /></a>
+              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://www.facebook.com/profile.php?id=100071887561382' target='_blank'><FaFacebookF /></a>
+              <a rel="noreferrer" className='p-4 text-xl rounded-full hover:bg-sky-800 hover:text-white text-sky-600 bg-white' href='https://www.linkedin.com/in/nizam-uddin-shejan/' target='_blank'><FaLinkedinIn /></a>
             </div>
           </div>
           <div className="mx-4 p-2">
